@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+div{
+    text-align: center;
+    color: aliceblue;
+}
+
+div>button{
+    margin: 1em;
+    height: 3em;
+    width: 5em;
+}
+
+div>button:hover{
+    cursor: pointer;
+}
+
+.start-btn{
+    background-color: rgb(17, 158, 17);
+    border: none;
+    border-radius: 2em;
+    color: white;
+}
+
+.pause-btn{
+    background-color: rgb(139, 139, 139);
+    border: none;
+    border-radius: 2em;
+    color: white;
+}
+
+.reset-btn{
+    background-color: rgb(204, 49, 49);
+    border: none;
+    border-radius: 2em;
+    color: white;
+}
